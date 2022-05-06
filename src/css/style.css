@@ -1,4 +1,4 @@
-.contauner {
+.container {
     width: 70%;
     height: 80vh;
     margin: 0 auto;
@@ -37,8 +37,10 @@ button {
     border: none;
     border-radius: 8%;
 }
-.key-usual {
-    
+button:hover {
+    background-color: rgb(214, 157, 142);
+    font-weight: 700;
+    color: beige;
 }
 .key-special {
     background-color: rgb(134, 85, 85);
@@ -50,9 +52,11 @@ button {
     
 }
 .space {
-    width: 33vw;
+    width: 34.5vw;
     border-radius: 3%;
 }
 .arrow, .numbers, .space {
     background-color: rgb(196, 169, 169);
+    color: beige;
+    font-weight: 700;
 }
