@@ -1,10 +1,10 @@
-export default
+export let ru = 
 [
 [{
     keyCode: 'Backquote',
     small: 'ё',
     upper: 'Ё',  
-    specialClass: 'tilda',
+    specialClass: 'key-special numbers',
   },
   {
     keyCode: 'Digit1',
@@ -70,13 +70,13 @@ export default
     keyCode: 'Backspace',
     small: 'Backspace',
     upper: 'Backspace',
-    specialClass: 'Backspace',    
+    specialClass: 'key-special key-special-long',    
   }], 
   [{
     keyCode: 'Tab',
     small: 'Tab',
     upper: 'Tab',    
-    specialClass: 'key-style',
+    sspecialClass: 'key-special',
   },
   {
     keyCode: 'KeyQ',
@@ -140,15 +140,15 @@ export default
   },
   {
     keyCode: 'Delete',
-    small: 'Delete',
-    upper: 'Delete',    
-    specialClass: 'key-style',
+    small: 'Del',
+    upper: 'Del',    
+    specialClass: 'key-special',
   }], 
   [{
     keyCode: 'CapsLock',
     small: 'CapsLock',
     upper: 'CapsLock',  
-    specialClass: 'key-style',  
+    specialClass: 'key-special key-special-long',
   },
   {
     keyCode: 'KeyA',
@@ -209,13 +209,13 @@ export default
     keyCode: 'Enter',
     small: 'Enter',
     upper: 'Enter',    
-    specialClass: 'enter',
+    specialClass: 'key-special key-special-long',
   }], 
  [{
     keyCode: 'ShiftLeft',
     small: 'Shift',
     upper: 'Shift',    
-    specialClass: 'shift',
+    specialClass: 'key-special key-special-long',
   },
   {
     keyCode: 'Backslash',
@@ -274,68 +274,68 @@ export default
   },
   {
     keyCode: 'ArrowUp',
-    small: '&uarr;',
-    upper: '&uarr;',    
-    specialClass: 'special',
+    small: '▲',
+    upper: '▲',    
+    specialClass: 'special arrow',
   },
   {
     keyCode: 'ShiftRight',
     small: 'Shift',
     upper: 'Shift',    
-    specialClass: 'special',
+    specialClass: 'key-special key-special-long',
   }], 
   [{
     keyCode: 'ControlLeft',
     small: 'Ctrl',
     upper: 'Ctrl',    
-    specialClass: 'key-style',
+    specialClass: 'key-special',
   },
   {
     keyCode: 'AltLeft',
     small: 'Alt',
     upper: 'Alt',    
-    specialClass: 'special',
+    specialClass: 'key-special',
   },
   {
-    keyCode: 'Win',
+    keyCode: 'MetaLeft',
     small: 'Win',
     upper: 'Win',    
-    specialClass: 'special',
+    specialClass: 'key-special',
   },
   {
     keyCode: 'Space',
     small: ' ',
     upper: ' ',    
-    specialClass: "space",
+    specialClass: 'space',
   },
   {
     keyCode: 'AltRight',
     small: 'Alt',
     upper: 'Alt',
-    specialClass: 'special',
+    specialClass: 'key-special',
+  },
+  {
+    keyCode: 'ArrowLeft',
+    small: '◄',
+    upper: '◄',    
+    specialClass: 'key-special arrow',
+  },  
+  {
+    keyCode: 'ArrowDown',
+    small: '▼',
+    upper: '▼',    
+    specialClass: 'key-special arrow',
+  },
+  {
+    keyCode: 'ArrowRight',
+    small: '►',
+    upper: '►',    
+    specialClass: 'key-special arrow',
   },
   {
     keyCode: 'ControlRight',
     small: 'Ctrl',
     upper: 'Ctrl',    
-    specialClass: 'special',
-  },
-  {
-    keyCode: 'ArrowLeft',
-    small: '&larr;',
-    upper: '&larr;',    
-    specialClass: 'special',
-  },  
-  {
-    keyCode: 'ArrowDown',
-    small: '&darr;',
-    upper: '&darr;',    
-    specialClass: 'special',
-  },
-  {
-    keyCode: 'ArrowRight',
-    small: '&rarr;',
-    upper: '&rarr;',    
     specialClass: 'special',
   }]
 ];

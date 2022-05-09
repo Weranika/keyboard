@@ -317,7 +317,7 @@ export  let eng =
   {
     keyCode: 'ArrowLeft',
     small: '◄',
-    upper: '◄&larr;',    
+    upper: '◄',    
     specialClass: 'key-special arrow',
   },  
   {
