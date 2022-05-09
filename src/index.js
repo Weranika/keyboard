@@ -1,9 +1,13 @@
 'use strict';
 
 import KeyboardCreator from './keyboard';
+//import KeyboardActions from './buttons';
 
 const body = document.getElementById('body');
-//body.prepend(123);
+
 const keyboard = new KeyboardCreator();
 keyboard.create(body);
+
+//const buttons = new KeyboardActions();
+
 console.log('index')

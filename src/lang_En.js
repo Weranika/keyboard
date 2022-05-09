@@ -139,7 +139,7 @@ export  let eng =
     upper: '}',    
   },
   {
-    keyCode: 'Del',
+    keyCode: 'Delete',
     small: 'Del',
     upper: 'Del',    
     specialClass: 'key-special',
@@ -297,7 +297,7 @@ export  let eng =
     specialClass: 'key-special',
   },
   {
-    keyCode: 'Win',
+    keyCode: 'MetaLeft',
     small: 'Win',
     upper: 'Win',    
     specialClass: 'key-special',

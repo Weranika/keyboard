@@ -60,3 +60,7 @@ button:hover {
     color: beige;
     font-weight: 700;
 }
+.onFocus {
+    border-radius: 30%;
+    background-color: rgb(117, 59, 59);
+}
